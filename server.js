@@ -87,6 +87,7 @@ app.post("/api/new", function(req, res) {
   res.json(newcharacter);
 });
 
+var port = process.env.PORT || 3000;
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function() {
